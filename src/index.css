@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.margin{
+  margin-top: 7px;
+  height: 45px;   
+  background: transparent;
+  border: none;
+  color: rgb(11, 10, 10);   
+  font-size:14px;
+  font-weight:700;
+}
+.center{
+  margin-left:70%; 
+}
+.left{
+  margin-left: 96px;
+  margin-top: 10px;
+}
+
+.theme-dark {
+  --dark-text: #292929;
+  --light-text: #F9F8F8;  
+  --dark-background: #2F4550;
+  --light-background: #586F7C;
+  --accent: #B8DBD9;
+  --button-border: #B8DBD9;
+}
+
+.theme-light {
+  --dark-text: #5E4B56;
+  --light-text: #5E4B56;
+  --dark-background: #DBE7E4;
+  --light-background: #EDDCD2;
+  --accent: #DBE7E4;
+  --button-border: #5E4B56;
+}
+
+html, #root {
+  background-color: var(--dark-background);
+  color: var(--dark-text);
+}
+
+nav {
+  background-color: var(--dark-background);
+  color: var(--light-text);
+}
+
+.main-container {
+  background-color: var(--light-background);
+}
+
+.popup-content{
+  padding-bottom: 4%;
+  padding-right:14%;
+}
